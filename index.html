@@ -12,7 +12,7 @@
 
     <div class="app">
       <form>
-        <div class="form-control" class="col-75">
+        <div class="form-control">
           <label for="participant">Who's doing the class ?</label>
           <select name="participant" id="participant">
             <option value="Aayush">Aachu</option>
@@ -23,12 +23,15 @@
           </select>
         </div>
         <div class="form-control">
-          <label for="link">Enter the meet link</label>
-          <input type="text" id="link" />
+          <label for="option">Link / Code</label>
+          <select name="option" id="option">
+            <option value="link">Link</option>
+            <option value="code">Code</option>
+          </select>
         </div>
         <div class="form-control">
-          <label for="code">Enter the meet code</label>
-          <input type="text" id="code" />
+          <label for="meetInfo">Enter the meet link/code</label>
+          <input type="text" id="meetInfo" />
         </div>
         <div class="form-control">
           <label for="noOfUsers">Enter the number of participants</label>
